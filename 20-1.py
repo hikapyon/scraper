@@ -17,6 +17,6 @@ class Scraper:
             if url is None:
                 continue
             print("\n" + url)
-
+            
 news = "https://news.google.com/"
 Scraper(news).scrape()
